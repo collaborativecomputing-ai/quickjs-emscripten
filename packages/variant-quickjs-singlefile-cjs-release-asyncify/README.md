@@ -50,7 +50,7 @@ Full variant JSON description:
   "emscriptenInclusion": "singlefile",
   "exports": {
     "require": {
-      "emscriptenEnvironment": ["web", "worker", "node"]
+      "emscriptenEnvironment": ["web", "worker"]
     }
   }
 }

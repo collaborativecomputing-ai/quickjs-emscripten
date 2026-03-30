@@ -45,7 +45,7 @@ enum EmscriptenEnvironment {
   node = "node",
 }
 
-const DEFAULT_EMSCRIPTEN_VERSION = "5.0.1"
+const DEFAULT_EMSCRIPTEN_VERSION = "5.0.4"
 // Use older emscripten for asmjs to avoid relying on newer browser APIs
 const ASMJS_EMSCRIPTEN_VERSION = "3.1.43"
 
@@ -112,7 +112,6 @@ const targets = {
         emscriptenEnvironment: [
           EmscriptenEnvironment.web,
           EmscriptenEnvironment.worker,
-          EmscriptenEnvironment.node,
         ],
       },
     },

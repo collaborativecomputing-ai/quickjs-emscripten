@@ -580,7 +580,7 @@
       "syncMode": "sync",
       "description": "Variant with the WASM data embedded into a universal (Node and Browser compatible) CommonJS module.",
       "emscriptenInclusion": "singlefile",
-      "exports": { "require": { "emscriptenEnvironment": ["web", "worker", "node"] } }
+      "exports": { "require": { "emscriptenEnvironment": ["web", "worker"] } }
     }
   },
   "packages/variant-quickjs-singlefile-cjs-debug-asyncify": {
@@ -636,7 +636,7 @@
       "syncMode": "asyncify",
       "description": "Variant with the WASM data embedded into a universal (Node and Browser compatible) CommonJS module.",
       "emscriptenInclusion": "singlefile",
-      "exports": { "require": { "emscriptenEnvironment": ["web", "worker", "node"] } }
+      "exports": { "require": { "emscriptenEnvironment": ["web", "worker"] } }
     }
   },
   "packages/variant-quickjs-singlefile-cjs-release-sync": {
@@ -692,7 +692,7 @@
       "syncMode": "sync",
       "description": "Variant with the WASM data embedded into a universal (Node and Browser compatible) CommonJS module.",
       "emscriptenInclusion": "singlefile",
-      "exports": { "require": { "emscriptenEnvironment": ["web", "worker", "node"] } }
+      "exports": { "require": { "emscriptenEnvironment": ["web", "worker"] } }
     }
   },
   "packages/variant-quickjs-singlefile-cjs-release-asyncify": {
@@ -748,7 +748,7 @@
       "syncMode": "asyncify",
       "description": "Variant with the WASM data embedded into a universal (Node and Browser compatible) CommonJS module.",
       "emscriptenInclusion": "singlefile",
-      "exports": { "require": { "emscriptenEnvironment": ["web", "worker", "node"] } }
+      "exports": { "require": { "emscriptenEnvironment": ["web", "worker"] } }
     }
   },
   "packages/variant-quickjs-singlefile-mjs-debug-sync": {
